@@ -20,6 +20,13 @@
       "supportsTablet": true
     },
     "android": {
+      "permissions": [
+        "CAMERA_ROLL",
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE",
+        "NOTIFICACION",
+        "USER_FACING_NOTIFICATIONS"
+      ],
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
@@ -27,6 +34,16 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra":{
+      "firebase":{
+        "apiKey": "AIzaSyCWcUDVnlApPSFYEFmrGb9qdOhbyyaugMU",
+        "authDomain": "whatsappeccomerce.firebaseapp.com",
+        "projectId": "whatsappeccomerce",
+        "storageBucket": "whatsappeccomerce.appspot.com",
+        "messagingSenderId": "142835865988",
+        "appId": "1:142835865988:web:422801e7da8f88615be5d1"
+      }
     }
   }
 }
